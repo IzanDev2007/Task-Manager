@@ -15,13 +15,17 @@
         <h2>Sign Up</h2>
 
         <input type="text" name="username" placeholder="Enter your username" required />
+        <p id="userExistError" class="error"></p>
         <input type="email" name="email" placeholder="Enter your email" required />
+        <p id="emailExistError" class="error"></p>
         <input type="password" name="password" placeholder="Enter your password" required />
+        <p class="error"></p>
         <input type="password" name="repeat-password" placeholder="Repeat your password" required />
+        <p id="passwordNotMachError" class="error"></p>
 
         <button type="submit">Register</button>
 
-        <p class="login-link">Already have an account? <a href="#">Log In</a></p>
+        <p class="login-link">Already have an account? <a href="../login/loginView.php">Log In</a></p>
     </form>
 </div>
 
